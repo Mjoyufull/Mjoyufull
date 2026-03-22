@@ -1,198 +1,46 @@
 <div align="center">
 
-![Kaleidux Logo](./assets/kaleidux.png)
+![Kaleidux Logo](./assets/lgo.png)
 
-<i>(dynamic desktop kaleidoscope)</i>
+<i>(dynamic development)</i>
 
 <br><br>
 
-[![License](https://img.shields.io/badge/license-AGPL--3.0-red.svg?style=flat-square)](https://github.com/Mjoyufull/Kaleidux/blob/main/LICENSE)
-![written in Rust](https://img.shields.io/badge/language-rust-orange.svg?style=flat-square)
-![platform](https://img.shields.io/badge/platform-linux-blue.svg?style=flat-square)
-
 <br>
-High-performance, hardware-accelerated wallpaper daemon for Linux.<br>
-Supports Wayland & X11 with 50+ smooth GLSL transitions.
+    I build whats needed
 </div>
 
-## Table of Contents
+---
 
-- [Quickstart](#quickstart)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage Breakdown](#usage-breakdown)
-- [Configuration](#configuration)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
+### Yo!
 
-**More Info:** [Detailed Usage & Advanced Config](./USAGE.MD)
+ I'm **Rikona**.
 
-## Quickstart
-<img width="1920" height="1080" alt="Screenshot_20260118-203253" src="https://github.com/user-attachments/assets/2487daf1-5dbc-4a57-a7fe-d5d8f7148a77" />
-
-Get up and running in 30 seconds:
-
-```bash
-# Install with Nix (recommended)
-nix run github:Mjoyufull/Kaleidux
-
-# Or build from source
-git clone https://github.com/Mjoyufull/Kaleidux && cd Kaleidux
-cargo build --release
-sudo cp target/release/kaleidux-daemon /usr/local/bin/
-sudo cp target/release/kldctl /usr/local/bin/
-
-# Start the daemon
-kaleidux-daemon &
-
-# Skip to next wallpaper
-kldctl next
-```
-
-## Features
-
-- **Video Support**: Seamlessly loop videos as wallpapers using GStreamer.
-- **Image Support**: High-quality image rendering and transitions.
-- **Hardware Accelerated**: Powered by `WGPU` for near-zero CPU overhead during transitions.
-- **50+ Transitions**: Huge library of GLSL transitions (fade, cube, doom, wipe, ripple, etc.).
-- **Multi-Monitor**: Independent queue management for each output.
-- **Monitor Behaviors**: `Independent`, `Synchronized`, or `Grouped` monitor support.
-- **Rhai Scripting**: Automate your wallpaper logic with Rust-like scripts.
-- **IPC Control**: Control the daemon via `kldctl` (next, prev, pause, status, etc.).
-
-## Installation
-### Option 1: Aur (Recommended)
-- Installing from the Arch User Repository
-```
-$ yay -S kaleidux-git
-# or
-$ paru -S kaleidux-git
-```
-
-### Option 2: Nix Flake
-
-- Build and run with Nix flakes:
-
-  ```bash
-  nix run github:Mjoyufull/Kaleidux
-  ```
-
-- Add to your `flake.nix` inputs:
-  ```nix
-  {
-    inputs.kaleidux.url = "github:Mjoyufull/Kaleidux";
-  }
-  ```
-
-### Option 3: Build from Source
-
-**Build Requirements:**
-
-- Rust 1.89+ **stable**
-- GStreamer 1.20+ with dev plugins
-- Wayland and/or X11 development headers
-
-**Arch Linux Setup:**
-
-```bash
-sudo pacman -S gstreamer gst-plugins-base gst-plugins-good \
-               gst-plugins-bad gst-libav wayland libx11 \
-               vulkan-devel pkgconf cmake
-```
-
-**Build:**
-
-```bash
-git clone https://github.com/Mjoyufull/Kaleidux && cd Kaleidux
-cargo build --release
-```
-
-## Usage Breakdown
-
-### Daemon (`kaleidux-daemon`)
-
-The core background service handling rendering and display interop.
-
-```bash
-Usage: kaleidux-daemon [OPTIONS]
-
-Options:
-      --demo       Run in demo mode (rotating built-in shaders)
-      --log <PATH> Specify log file path
-  -h, --help       Show help
-```
-
-### Controller (`kldctl`)
-
-Swiss Army knife for interacting with the running daemon.
-
-```text
-kldctl
-├── next [n]      Skip to the next wallpaper
-├── prev [p]      Go back to the previous wallpaper
-├── query [q]     List connected outputs and current state
-├── love <PATH>   Increase selection frequency for a file
-├── unlove <PATH> Reset frequency for a file
-├── lovelist [ll] List all "loved" wallpapers
-├── pause         Pause video playback
-├── resume        Resume video playback
-├── reload        Reload configuration from disk
-├── kill          Stop the daemon gracefully
-├── playlist      Manage content playlists
-├── blacklist     Manage excluded files
-└── history       Show recently played wallpapers
-```
-
-### Quick Usage Examples
-
-```bash
-# Love the current wallpaper on a specific monitor
-kldctl love ~/wallpapers/nature.jpg
-
-# List status of all monitors
-kldctl query
-
-# Sync all monitors to the next wallpaper
-kldctl next --all
-```
-
-## Configuration
-
-Default location: `~/.config/kaleidux/config.toml`
-
-```toml
-[global]
-monitor-behavior = "independent"
-sorting = "loveit"
-video-ratio = 50
-
-[any]
-transition = { type = "cube", duration = 1000 }
-```
-
-See [USAGE.MD](./USAGE.MD) for full configuration reference.
-
-## Troubleshooting
-
-- **Long Startup**: WGPU may wait for driver initialization on Wayland (~15s).
-- **High CPU**: Video frames currently use a CPU-RGBA roundtrip. Zero-copy is planned.
-- **Shader Errors**: Ensure your GPU supports Vulkan or GLSL 450.
-
-## Contributing
-
-See [CONTRIBUTING.md](./CONTRIBUTING.md) and [PROJECT_STANDARDS.md](./PROJECT_STANDARDS.md) for guidelines.
-
-## Credits
-
-- [gSlapper](https://github.com/Nomadcxx/gSlapper)
-- [wpaperd](https://github.com/danyspin97/wpaperd)
-- [mpvpaper](https://github.com/GhostNaN/mpvpaper)
-- [GStreamer](https://gstreamer.freedesktop.org/)
-- [Clapper](https://github.com/Rafostar/clapper)
-- [swww](https://github.com/Horus645/swww)
+a open-source developer with a deep passion for safe langs and practical tooling.
 
 
-## License
+####  Projects
 
-Kaleidux is licensed under the AGPL-3.0 License.
+Mostly Linux desktop stuff, terminal-heavy workflows, package manager ideas, and experiments I wanted badly enough to build.
+
+**Stuff I keep building on**
+
+- [Elda](https://github.com/Mjoyufull/Elda) - A git-based systems package manager based on [pkgit](github.com/dacctal/pkgit).
+- [Kaleidux](https://github.com/Mjoyufull/Kaleidux) - A dynamic wallpaper daemon for Linux with Wayland and X11 support.
+- [fsel](https://github.com/Mjoyufull/fsel) - A fast TUI app launcher and fuzzy finder for GNU/Linux and *BSD forked from [gyr](https://git.sr.ht/~nkeor/gyr).
+- [Rivet](https://github.com/Mjoyufull/Rivet) - A desktop Matrix client built with GPUI.
+- [bfetch](https://github.com/Mjoyufull/bfetch) - A lightweight, ultra-optimized system fetch tool written in C and Austral[bfetchaust](https://github.com/Mjoyufull/bfetch/tree/main/bfetchaust/).
+- [Setrixtui](https://github.com/Mjoyufull/Setrixtui) - A Tetris sand game in Ratatui.
+
+**Smaller tools and side quests**
+
+- [pmux](https://github.com/Mjoyufull/pmux) - The pm TUI package browser with Bedrock linux support.
+- [PROJECT_STANDARDS](https://github.com/Mjoyufull/PROJECT_STANDARDS) - Project standards and git workflow i follow and subscribe to fully detailed across different languages.
+- [goto](https://github.com/Mjoyufull/goto), [fend](https://github.com/Mjoyufull/fend), [swwws](https://github.com/Mjoyufull/swwws), [MNGR](https://github.com/Mjoyufull/MNGR),.
+
+**Configs and desktop theming**
+
+- [Hyprland-Unrounded](https://github.com/Mjoyufull/Hyprland-Unrounded) - My sharper Hyprland setup.
+- [Hyprland-rounded-nord](https://github.com/Mjoyufull/Hyprland-rounded-nord) - A rounded Nord-flavored Hyprland setup.
+- [old-hyprland-with-waybar-nord](https://github.com/Mjoyufull/old-hyprland-with-waybar-nord) - An earlier Hyprland and Waybar Nord setup.
+- [SwayFX-nord](https://github.com/Mjoyufull/SwayFX-nord) - A Nord-themed SwayFX setup.
