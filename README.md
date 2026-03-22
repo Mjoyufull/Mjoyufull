@@ -3,9 +3,7 @@
 ![Kaleidux Logo](./assets/lgo.png)
 
 <i>(dynamic development)</i>
-
 <br><br>
-
 <br>
     I build whats needed
 </div>
