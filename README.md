@@ -23,7 +23,7 @@ Mostly Linux desktop stuff, terminal-heavy workflows, package manager ideas, and
 
 **Stuff I keep building on**
 
-- [Elda](https://github.com/Mjoyufull/Elda) - A git-based systems package manager based on [pkgit](github.com/dacctal/pkgit).
+- [Elda](https://github.com/Mjoyufull/Elda) - A git-based systems package manager based on [pkgit](https://github.com/dacctal/pkgit).
 - [Kaleidux](https://github.com/Mjoyufull/Kaleidux) - A dynamic wallpaper daemon for Linux with Wayland and X11 support.
 - [fsel](https://github.com/Mjoyufull/fsel) - A fast TUI app launcher and fuzzy finder for GNU/Linux and *BSD forked from [gyr](https://git.sr.ht/~nkeor/gyr).
 - [Rivet](https://github.com/Mjoyufull/Rivet) - A desktop Matrix client built with GPUI.
