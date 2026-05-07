@@ -26,6 +26,7 @@ Mostly Linux desktop stuff, terminal-heavy workflows, package manager ideas, and
 - [Elda](https://github.com/Mjoyufull/Elda) - A git-based systems package manager based on [pkgit](https://github.com/dacctal/pkgit).
 - [Kaleidux](https://github.com/Mjoyufull/Kaleidux) - A dynamic wallpaper daemon for Linux with Wayland and X11 support.
 - [fsel](https://github.com/Mjoyufull/fsel) - A fast TUI app launcher and fuzzy finder for GNU/Linux and *BSD forked from [gyr](https://git.sr.ht/~nkeor/gyr).
+- [Kyokai](https://github.com/Mjoyufull/kyokai) -  A systems language with linear types and capability-based security with smooth toolchains and a focus on explicitness, readability, and code that is easy to reason about, parse, and audit. forked from [Austral](https://github.com/austral/austral).
 - [Rivet](https://github.com/Mjoyufull/Rivet) - A desktop Matrix client built with GPUI.
 - [bfetch](https://github.com/Mjoyufull/bfetch) - A lightweight, ultra-optimized system fetch tool written in C and Austral[bfetchaust](https://github.com/Mjoyufull/bfetch/tree/main/bfetchaust/).
 - [Setrixtui](https://github.com/Mjoyufull/Setrixtui) - A Tetris sand game in Ratatui.
