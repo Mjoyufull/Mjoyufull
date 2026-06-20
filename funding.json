@@ -5,7 +5,7 @@
 "type": "individual",
 "role": "maintainer",
 "name": "Rikona Kurasaki",
-"email": "[bigmandays@proton.me](mailto:bigmandays@proton.me)",
+"email": "bigmandays@proton.me"
 "description": "I am an open-source developer focused on practical Rust/Linux systems tooling, terminal-native workflows, package management experiments, and safer systems software. My work includes user-facing developer tools such as fsel, package-management research through Elda, and longer-term systems-language work through Kyokai. Funding would help sustain maintenance, documentation, release engineering, security work, and focused development time across these open-source efforts.",
 "webpageUrl": {
 "url": "https://github.com/Mjoyufull",
@@ -55,7 +55,7 @@
 {
 "guid": "direct-contact",
 "type": "other",
-"address": "[bigmandays@proton.me](mailto:bigmandays@proton.me)",
+"email": "[bigmandays@proton.me](mailto:bigmandays@proton.me)",
 "description": "Contact by email for direct sponsorship, grants, invoices, or bank transfer details."
 }
 ],
