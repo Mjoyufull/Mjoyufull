@@ -1,0 +1,96 @@
+{
+"$schema": "https://fundingjson.org/schema/v1.1.0.json",
+"version": "v1.1.0",
+"entity": {
+"type": "individual",
+"role": "maintainer",
+"name": "Rikona Kurasaki",
+"email": "[bigmandays@proton.me](mailto:bigmandays@proton.me)",
+"description": "I am an open-source developer focused on practical Rust/Linux systems tooling, terminal-native workflows, package management experiments, and safer systems software. My work includes user-facing developer tools such as fsel, package-management research through Elda, and longer-term systems-language work through Kyokai. Funding would help sustain maintenance, documentation, release engineering, security work, and focused development time across these open-source efforts.",
+"webpageUrl": {
+"url": "https://github.com/Mjoyufull",
+"wellKnown": ""
+}
+},
+"projects": [
+{
+"guid": "fsel",
+"name": "fsel",
+"description": "fsel is a fast terminal user interface app launcher and fuzzy finder for GNU/Linux and BSD systems. It is designed for keyboard-driven desktop and terminal workflows, with support for launcher usage, dmenu-style interaction, configuration, and Unix-friendly integration.",
+"webpageUrl": {
+"url": "https://github.com/Mjoyufull/fsel",
+"wellKnown": ""
+},
+"repositoryUrl": {
+"url": "https://github.com/Mjoyufull/fsel",
+"wellKnown": ""
+},
+"licenses": ["spdx:BSD-2-Clause"],
+"tags": ["rust", "linux", "developer-tools", "terminal", "tui", "desktop", "bsd", "app-launcher"]
+},
+{
+"guid": "elda",
+"name": "Elda",
+"description": "Elda is a Unix/Linux system package manager written in Rust. It explores signed remotes, explicit installed-state ledgers, rollback-aware transactions, package recipes, source and binary lanes, and foreign package metadata imports and cross ecosystem metadata consumption. The goal is trustworthy, auditable package delivery for Unix-like systems, and having all the packages.",
+"webpageUrl": {
+"url": "https://github.com/Mjoyufull/Elda",
+"wellKnown": ""
+},
+"repositoryUrl": {
+"url": "https://github.com/Mjoyufull/Elda",
+"wellKnown": ""
+},
+"licenses": ["spdx:AGPL-3.0"],
+"tags": ["rust", "linux", "package-manager", "supply-chain", "developer-tools", "security"]
+}
+],
+"funding": {
+"channels": [
+{
+"guid": "github-sponsors",
+"type": "payment-provider",
+"address": "https://github.com/sponsors/Mjoyufull",
+"description": "Recurring sponsorship for open-source maintenance and development."
+},
+{
+"guid": "direct-contact",
+"type": "other",
+"address": "[bigmandays@proton.me](mailto:bigmandays@proton.me)",
+"description": "Contact by email for direct sponsorship, grants, invoices, or bank transfer details."
+}
+],
+"plans": [
+{
+"guid": "maintenance-monthly",
+"status": "active",
+"name": "Maintenance runway",
+"description": "Monthly support for ongoing maintenance, issue triage, documentation, releases, and project coordination across Mjoyufull open-source systems tooling.",
+"amount": 1000,
+"currency": "USD",
+"frequency": "monthly",
+"channels": ["github-sponsors", "direct-contact"]
+},
+{
+"guid": "focused-development",
+"status": "active",
+"name": "Focused development grant",
+"description": "One-time support for concentrated work on Elda packaging/security/release infrastructure and fsel maintenance/release polish.",
+"amount": 10000,
+"currency": "USD",
+"frequency": "one-time",
+"channels": ["direct-contact"]
+},
+{
+"guid": "general-support",
+"status": "active",
+"name": "General support",
+"description": "Flexible support for open-source development, infrastructure, testing, documentation, and maintenance.",
+"amount": 0,
+"currency": "USD",
+"frequency": "one-time",
+"channels": ["github-sponsors", "direct-contact"]
+}
+]
+}
+}
+
