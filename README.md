@@ -23,7 +23,6 @@ Mostly Linux desktop stuff, terminal-heavy workflows, package manager ideas, and
 
 **Stuff I keep building on**
 
-- [Elda](https://github.com/Mjoyufull/Elda) - Unix-first system package manager in Rust. Native Lua recipes, signed remotes, and machine-read translations from Gentoo overlays, AUR, Nix flakes, and Void — one solver, one ledger, no foreign PM needed hard fork based on [pkgit](https://github.com/dacctal/pkgit).
 - [Kaleidux](https://github.com/Mjoyufull/Kaleidux) - A dynamic wallpaper daemon for Linux with Wayland and X11 support.
 - [fsel](https://github.com/Mjoyufull/fsel) - A fast TUI app launcher and fuzzy finder for GNU/Linux and *BSD forked from [gyr](https://git.sr.ht/~nkeor/gyr).
 - [Kyokai](https://github.com/Mjoyufull/kyokai) -  A systems language with linear types and capability-based security with smooth toolchains and a focus on explicitness, readability, and code that is easy to reason about, parse, and audit. forked from [Austral](https://github.com/austral/austral).
@@ -37,6 +36,8 @@ Mostly Linux desktop stuff, terminal-heavy workflows, package manager ideas, and
 - [PROJECT_STANDARDS](https://github.com/Mjoyufull/PROJECT_STANDARDS) - Project standards and git workflow i follow and subscribe to fully detailed across different languages.
 - [Layerstacked](https://github.com/Mjoyufull/layerstacked) - This allows me to have special workspaces infinately stacked on top of my current workspace allowing me to have 10x10 workspaces.
 - [goto](https://github.com/Mjoyufull/goto), [fend](https://github.com/Mjoyufull/fend), [swwws](https://github.com/Mjoyufull/swwws), [MNGR](https://github.com/Mjoyufull/MNGR),.
+**Old shii sorry**
+- [Elda](https://github.com/Mjoyufull/Elda) - was a Unix-first system package manager in Rust. had Native Lua recipes, signed remotes, and machine-read translations from Gentoo overlays, AUR, Nix flakes, and Void — one solver, one ledger, no foreign PM needed hard fork based on [pkgit](https://github.com/dacctal/pkgit). now i just suggest using NIX this was an overengineered solution to something already well overengineered.
 
 **Configs and desktop theming**
 
