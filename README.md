@@ -35,8 +35,10 @@ Mostly Linux desktop stuff, terminal-heavy workflows, package manager ideas, and
 - [pmux](https://github.com/Mjoyufull/pmux) - The pm TUI package browser with Bedrock linux support.
 - [PROJECT_STANDARDS](https://github.com/Mjoyufull/PROJECT_STANDARDS) - Project standards and git workflow i follow and subscribe to fully detailed across different languages.
 - [Layerstacked](https://github.com/Mjoyufull/layerstacked) - This allows me to have special workspaces infinately stacked on top of my current workspace allowing me to have 10x10 workspaces.
-- [goto](https://github.com/Mjoyufull/goto), [fend](https://github.com/Mjoyufull/fend), [swwws](https://github.com/Mjoyufull/swwws), [MNGR](https://github.com/Mjoyufull/MNGR),.
+- [goto](https://github.com/Mjoyufull/goto), [fend](https://github.com/Mjoyufull/fend), [swwws](https://github.com/Mjoyufull/swwws), [MNGR](https://github.com/Mjoyufull/MNGR).
+
 **Old shii sorry**
+
 - [Elda](https://github.com/Mjoyufull/Elda) - was a Unix-first system package manager in Rust. had Native Lua recipes, signed remotes, and machine-read translations from Gentoo overlays, AUR, Nix flakes, and Void — one solver, one ledger, no foreign PM needed hard fork based on [pkgit](https://github.com/dacctal/pkgit). now i just suggest using NIX this was an overengineered solution to something already well overengineered.
 
 **Configs and desktop theming**
